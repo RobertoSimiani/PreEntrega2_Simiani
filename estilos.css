@@ -9,7 +9,7 @@ header{
     top: 0;
     z-index: 1;
     width: 100%;
-    background-color: #3e554f;
+    background-color: #d6a8d8;
 }
 
 .container{
@@ -266,7 +266,7 @@ section.banner{
 	justify-content: center;
 	flex-direction: column;
 }
-h1{
+.banner h1{
 	font-size: 2rem;
 	color: #e662db;
 }
