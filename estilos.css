@@ -81,7 +81,8 @@ header{
  }
 
 #carousel_principal{
-    height: 500px;
+    height: 600px;
+    overflow: hidden;
 }
 
 
