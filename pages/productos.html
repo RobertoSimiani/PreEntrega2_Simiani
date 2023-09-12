@@ -3,7 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/estilos.css">
+    <link rel="stylesheet" href="/estilos/estilos.css">
+    <link rel="shortcut icon" href="../img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="/estilos/animate.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <title>Productos</title>
 </head>
 <body>
@@ -11,9 +14,9 @@
     <section class="banner">
         <div class="containerB">
             <div class="boxB col1">
-                <img src="/img/logo_hd.png" class="imgBanner" alt="">
+                <img src="/img/logo_hd.png" class="imgBanner wow animate__backInDown" alt="">
             </div>
-            <div class="boxB col2">
+            <div class="boxB col2 wow animate__tada">
                 <h1>Gracias por confiar en Nosotros</h1>
                 <p id="txtBanner">
                     Somos un negocio familiar que busca complacer a nuestros clientes, compartiendoles nuestros mejores platos para compartir en sus mesas!
@@ -49,5 +52,11 @@
             </div>
         </div>
     </section>
+
+    <script src="/js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+    </script>
+
 </body>
 </html>
